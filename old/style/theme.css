@@ -1,0 +1,71 @@
+#c_top{
+    background-color:  rgba(36, 112, 196,1);
+    box-shadow: 0 0px 10px black;
+}
+#c_navTop{
+    color: white;
+    font-size: 25px;
+}
+.list_navTop li{
+    transition:all 0.1s ease-in;
+}
+.list_navTop li:hover{
+    background-color:#FFB800;
+    box-shadow:inset 0 0 7px #11385f;
+}
+.undrelineNavTop_blue:hover,.undrelineNavTop_red:hover,.undrelineNavTop_brown:hover,.undrelineNavTop_fiolet:hover{
+    box-shadow: 0 0 20px black;
+}
+
+.undrelineNavTop_blue{
+    background-color: lime;
+}
+.undrelineNavTop_red{
+    background-color: red;
+}
+.undrelineNavTop_brown{
+    background-color: #a52a2a;
+}
+.undrelineNavTop_fiolet{
+    background-color: #8b008b;
+}
+.choose{
+    box-shadow: 0 0 20px #a72a2a;
+}
+#c_info{
+    box-shadow:inset 0 0 15px rgba(67, 36, 15, 0.61);
+    background-color: #FFB800;
+}
+.backgroundRed{
+    background-color: red;
+    background: url("../img/mobile-dev.png") no-repeat 50%;
+}
+.backgroundGreen{
+    background-color: green;
+    background: url("../img/seo.png") no-repeat 50%;
+}
+.backgroundWhite{
+    background-color: white;
+    background: url("../img/site.png") no-repeat 50%;
+}
+.backgroundYellow{
+    background-color: yellow;
+    background: url("../img/article.png") no-repeat 50%;
+}
+#button_closeInfo{
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: gray;
+    background-color: gray;
+    box-shadow:0 0 3px #000;
+    opacity: 0.5;
+}
+#button_closeInfo:hover{
+    box-shadow:0 0 6px #000;
+}
+.circle,.circleAlpha{
+    box-shadow:0 0 5px #000;
+}
