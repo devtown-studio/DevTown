@@ -45,7 +45,7 @@ class SiteController extends CController
 
 	public function actionIndex()
 	{
-        $this->render('index'); 
+        $this->render('index');
 	}
 
     public function actionLogin(){
