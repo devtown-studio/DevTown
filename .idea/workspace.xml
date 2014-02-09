@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a306c10-2d81-4c52-ae5a-6e64df883e00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mobile-dev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/seo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/seo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/site.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/site2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/web-dev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/controllers/AjaxController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/yii.php" afterPath="$PROJECT_DIR$/framework/yii.php" />
     </list>
     <ignored path="porfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +26,8 @@
     <file path="/calc.js" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1384334094357" ignored="false" />
     <file path="/Ajax.php" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1384326305109" ignored="false" />
     <file path="/AjaxController.php" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1384334189313" ignored="false" />
-    <file path="/Dummy.txt" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1391939410659" ignored="false" />
+    <file path="/Dummy.txt" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1391943611181" ignored="false" />
+    <file path="/.gitignore" changelist="7a306c10-2d81-4c52-ae5a-6e64df883e00" time="1391943603685" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +50,7 @@
       <file leaf-file-name="CalcController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/CalcController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="56" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+            <state line="33" column="56" selection-start="623" selection-end="623" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -81,10 +74,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjaxController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AjaxController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="150" selection-end="150" vertical-scroll-proportion="0.07550645">
+            <state line="9" column="33" selection-start="150" selection-end="150" vertical-scroll-proportion="-1.5769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yii.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/yii.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,6 +130,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
     <option name="myDateState">
       <MyDateState />
     </option>
@@ -126,8 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/style/general.css" />
         <option value="$PROJECT_DIR$/style/theme.css" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
@@ -142,6 +152,8 @@
         <option value="$PROJECT_DIR$/protected/views/calc/index.php" />
         <option value="$PROJECT_DIR$/js/calc.js" />
         <option value="$PROJECT_DIR$/protected/controllers/AjaxController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/framework/yii.php" />
       </list>
     </option>
   </component>
@@ -194,6 +206,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="porfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="porfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="porfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,7 +310,11 @@
       <created>1391939412780</created>
       <updated>1391939412780</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Первая версия">
+      <created>1391943612403</created>
+      <updated>1391943612403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -308,11 +338,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -322,7 +352,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -394,20 +424,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/calc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="34" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/ajax/Ajax.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="36" selection-start="832" selection-end="844" vertical-scroll-proportion="0.0">
@@ -459,7 +475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/CalcController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="56" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="33" column="56" selection-start="623" selection-end="623" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
@@ -487,7 +503,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/AjaxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="150" selection-end="150" vertical-scroll-proportion="0.07550645">
+        <state line="9" column="33" selection-start="150" selection-end="150" vertical-scroll-proportion="-1.5769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/yii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
