@@ -11,6 +11,9 @@
 <body>
 
     <div id="c_top">
+        <div id="c_topLogo">
+            <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/main_logo.png" height="40px" width="40px" id="img_topLogo">
+        </div>
         <div id="c_navTop">
             <ul class="list_navTop">
                 <li>
