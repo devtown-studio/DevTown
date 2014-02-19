@@ -28,6 +28,7 @@
 }
 .c_topRect:hover{
     background-color: rgba(255, 254, 215, 0.20);
+    cursor: pointer;
 }
 #i_topRect_1{
     top: 100px;
@@ -159,6 +160,7 @@
 .c_servicesRect:hover{
     background-color: #DB2CC5;
     color: #ffffff;
+    cursor: pointer;
 }
 /*конец лучшие услуги*/
 
