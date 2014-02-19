@@ -22,7 +22,7 @@ class WServicesSlider extends CWidget
 
                 </div>
 
-                <script src="'.Yii::app()->request->baseUrl.'/js/slide.js"></script>';
+                ';//<script src="'.Yii::app()->request->baseUrl.'/js/slide.js"></script>';
 
         echo $html;
     }
