@@ -133,16 +133,45 @@
 }
 /*Конец прямоугульникам*/
 
+/*Лучшие услуги*/
 #i_services{
     background-color: #ffffff;
     width: 100%;
+    min-height: 90%;
 }
 #i_servicesContent{
     width: 1000px;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 110px;
 }
-.c_contentHeader{
-    text-align: center;
-    font-weight: bold;
+#i_servicesRectBlock{
+    width: 1060px;
+    margin: 90px auto;
 }
+.c_servicesRect{
+    height: 130px;
+    width: 130px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: #DB2CC5 solid 3px;
+    margin-right: 110px;
+}
+.c_servicesRect:hover{
+    background-color: #DB2CC5;
+    color: #ffffff;
+}
+/*конец лучшие услуги*/
+
+/*Ещё блок*/
+#i_moreBlock{
+    background-color: #dadbae;
+    width: 100%;
+    min-height: 90%;
+    padding-top: 1px;
+}
+#i_moreBlockContent{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+/*конец ещё блок*/

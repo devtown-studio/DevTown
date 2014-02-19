@@ -27,3 +27,29 @@ body{
 .c_fontSize30{
     font-size: 30px;
 }
+.c_width800{
+    width: 800px;
+}
+.c_width800Min{
+    min-width: 800px;
+}
+.c_marginCenter{
+    margin:  0 auto;
+}
+.c_contentTextMedium{
+    font-size: 20px;
+}
+.c_contentHeader{
+    text-align: center;
+    font-weight: bold;
+}
+.c_textCenter{
+    text-align: center;
+}
+.c_textRotateRectHor{
+    -webkit-transform:rotate(-45deg);
+    margin-top: 30px;
+}
+.c_contentTextLarge{
+    font-size: 40px;
+}
