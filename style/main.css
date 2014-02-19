@@ -123,7 +123,26 @@
     width: 60px;
     margin-left: 100px;
     margin-top: -30px;
-    background-color: #DB2CC5;
     -webkit-transform: rotate(45deg);
     /*border: #000000 solid medium;*/
+}
+#i_buttonMenuImg{
+    -webkit-transform:rotate(-45deg);
+    margin-top: 8px;
+    width:55px;
+}
+/*Конец прямоугульникам*/
+
+#i_services{
+    background-color: #ffffff;
+    width: 100%;
+}
+#i_servicesContent{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.c_contentHeader{
+    text-align: center;
+    font-weight: bold;
 }

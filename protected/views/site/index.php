@@ -19,12 +19,17 @@
             <div class="c_topRectNonHover" id="i_topRect_13">13</div>
         </div>
     </div>
-    <div id="i_buttonMenuRect">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/eye.png" style="-webkit-transform:rotate(-45deg);margin-top: 8px" width="55px"/>
+    <div id="i_buttonMenuRect" class="c_corpBackgroungColor">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/eye.png" id="i_buttonMenuImg" />
+    </div>
+
+    <div id="i_services">
+        <div id="i_servicesContent">
+            <div class="c_contentHeader c_fontSize30">
+                Что <span class="c_corpTextColor">мы</span> производим<br>
+            </div>
+        </div>
     </div>
 </div>
 
-<div style="height: 10100px">
-    asd
-</div>
 <?php //$this->widget('WServicesSlider'); ?>
