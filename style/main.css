@@ -1,2 +1,65 @@
+#main{
+    width: 100%;
+    height: 100%;
 
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+.rect,.rectBig{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    -webkit-transform: rotate(45deg);
+    border: #000000 solid 1px;
+}
+.rect:hover{
+    background-color: rgba(255, 254, 215, 0.20);
+}
+.textRotate{
+    -webkit-transform: rotate(-90deg);
+    font-size: 55px;
+    /*margin-top: 10px;*/
+    float: left;
+}
+
+#r1{
+    top: 100px;
+    margin-left: 100px;
+
+    border-right: none;
+}
+#r2{
+    margin-left: 154px;
+    top: 185px;
+
+    height: 300px;
+    border: none;
+
+    border-left: #000000 solid 1px;
+}
+#r3{
+    margin-left: 313px;
+    top: 100px;
+}
+#r4{
+    margin-left: 313px;
+    top: 314px;
+}
+#r5{
+    margin-left: 204px;
+    top: 423px;
+}
+#r6{
+    margin-left: 422px;
+    top: 423px;
+}
+#mainLogo{
+    float: left;
+    -webkit-transform: rotate(-90deg);
+    margin-left: 50px;
+    margin-top: 200px;
+}
 
