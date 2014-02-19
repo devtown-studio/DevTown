@@ -1,6 +1,9 @@
-#main{
-    width: 100%;
+#i_content{
     height: 100%;
+}
+#i_main{
+    width: 100%;
+    height: 95%;
 
     background: url(../img/bg.jpg) no-repeat center center fixed;
     /*-webkit-background-size: cover;*/
@@ -8,58 +11,72 @@
     /*-o-background-size: cover;*/
     /*background-size: cover;*/
 }
-.rect,.rectBig{
+
+/*Прямоугльники*/
+#i_topRects{
+    width: 1000px;
+    height: 95%;
+    margin: 0 auto;
+}
+.c_topRect,.c_topRectNonHover{
     position: absolute;
     height: 150px;
     width: 150px;
     -webkit-transform: rotate(45deg);
-    border: #000000 solid 1px;
+    transform: rotate(45deg);
+    border: #000 solid 2px;
 }
-.rect:hover{
+.c_topRect:hover{
     background-color: rgba(255, 254, 215, 0.20);
 }
-.textRotate{
-    -webkit-transform: rotate(-90deg);
-    font-size: 55px;
-    /*margin-top: 10px;*/
-    float: left;
-}
-
-#r1{
+#i_topRect_1{
     top: 100px;
     margin-left: 100px;
 
     border-right: none;
 }
-#r2{
+#i_topRect_2{
     margin-left: 154px;
     top: 185px;
 
     height: 300px;
     border: none;
 
-    border-left: #000000 solid 1px;
+    border-left: #000 solid 2px;
 }
-#r3{
+#i_topRect_3{
     margin-left: 313px;
-    top: 100px;
+    top: 99px;
 }
-#r4{
+#i_topRect_4{
     margin-left: 313px;
     top: 314px;
 }
-#r5{
-    margin-left: 204px;
-    top: 423px;
+#i_topRect_5{
+    margin-left: 202px;
+    top: 425px;
 }
-#r6{
-    margin-left: 422px;
-    top: 423px;
+#i_topRect_6{
+    margin-left: 424px;
+    top: 425px;
 }
-#mainLogo{
+#i_mainLogoRect{
     float: left;
     -webkit-transform: rotate(-90deg);
     margin-left: 50px;
     margin-top: 200px;
 }
-
+.c_textRotateRect{
+    -webkit-transform: rotate(-90deg);
+    font-size: 55px;
+    float: left;
+}
+#i_buttonMenuRect{
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+    margin-top: -30px;
+    background-color: #DB2CC5;
+    -webkit-transform: rotate(45deg);
+    /*border: #000000 solid medium;*/
+}
