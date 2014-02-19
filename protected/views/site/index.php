@@ -1,15 +1,22 @@
 <div id="i_content">
     <div id="i_main">
         <div id="i_topRects">
-            <div class="c_topRect" id="i_topRect_1"></div>
-            <div class="c_topRectNonHover" id="i_topRect_2">
+            <div class="c_topRect" id="i_topRect_1">1</div>
+            <div class="c_topRectNonHover" id="i_topRect_2">2
                 <img height="50px" width="50px" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" id="i_mainLogoRect"/>
                 <div class="c_textRotateRect">DevTown</div>
             </div>
-            <div class="c_topRect" id="i_topRect_3"></div>
-            <div class="c_topRect" id="i_topRect_4"></div>
-            <div class="c_topRect" id="i_topRect_5"></div>
-            <div class="c_topRect" id="i_topRect_6"></div>
+            <div class="c_topRect" id="i_topRect_3">3</div>
+            <div class="c_topRect" id="i_topRect_4">4</div>
+            <div class="c_topRect" id="i_topRect_5">5</div>
+            <div class="c_topRect" id="i_topRect_6">6</div>
+            <div class="c_topRect" id="i_topRect_7">7</div>
+            <div class="c_topRect" id="i_topRect_8">8</div>
+            <div class="c_topRect" id="i_topRect_9">9</div>
+            <div class="c_topRectNonHover" id="i_topRect_10">10</div>
+            <div class="c_topRectNonHover" id="i_topRect_11">11</div>
+            <div class="c_topRectNonHover" id="i_topRect_12">12</div>
+            <div class="c_topRectNonHover" id="i_topRect_13">13</div>
         </div>
     </div>
     <div id="i_buttonMenuRect">
