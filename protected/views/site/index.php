@@ -1,10 +1,15 @@
 <div id="i_content">
     <div id="i_main">
         <div id="i_topRects">
-            <div class="c_topRect" id="i_topRect_1"></div>
+            <div class="c_topRect" id="i_topRect_1">
+                <div style="-webkit-transform:rotate(-45deg);margin-top: 44px;margin-left: 5px;text-align: center">
+                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/dev.png" style="width: 50px;"/>
+                    <br>
+                    Наши работы
+                </div>
+            </div>
             <div class="c_topRectNonHover" id="i_topRect_2">
-                <img height="50px" width="50px" src="<?php echo Yii::app()->request->baseUrl; ?>/img/logo.png" id="i_mainLogoRect"/>
-                <div class="c_textRotateRect">DevTown</div>
+                <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/LogoWithTExtMini.png." id="i_mainLogoRect"/>
             </div>
             <div class="c_topRect" id="i_topRect_3"></div>
             <div class="c_topRect" id="i_topRect_4"></div>
@@ -20,7 +25,7 @@
         </div>
     </div>
     <div id="i_buttonMenuRect" class="c_corpBackgroungColor">
-        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/eye.png" id="i_buttonMenuImg" />
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/menu.png" id="i_buttonMenuImg" />
     </div>
 
     <div id="i_services">
