@@ -52,6 +52,8 @@
 #i_topRect_4{
     margin-left: 313px;
     top: 314px;
+    overflow: hidden;
+    /*background: url("../img/notebook.jpg");*/
 }
 #i_topRect_5{
     margin-left: 202px;
@@ -64,10 +66,12 @@
 #i_topRect_7{
     margin-left: 639px;
     top: 425px;
+    overflow: hidden;
 }
 #i_topRect_8{
     margin-left: 750px;
     top: 314px;
+    overflow: hidden;
 }
 #i_topRect_9{
     margin-left: 639px;
@@ -130,6 +134,7 @@
 }
 #i_buttonMenuRect:hover{
     background-color: #dddd00;
+    cursor: pointer;
 }
 #i_buttonMenuImg{
     -webkit-transform:rotate(-45deg);
@@ -143,7 +148,7 @@
 #i_services{
     background-color: #ffffff;
     width: 100%;
-    min-height: 90%;
+    min-height: 500px;
 }
 #i_servicesContent{
     width: 1000px;
@@ -173,7 +178,7 @@
 #i_moreBlock{
     background-color: #dadbae;
     width: 100%;
-    min-height: 90%;
+    min-height: 500px;
     padding-top: 1px;
 }
 #i_moreBlockContent{

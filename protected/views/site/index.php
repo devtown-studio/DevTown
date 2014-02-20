@@ -12,11 +12,17 @@
                 <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/LogoWithTExtMini.png." id="i_mainLogoRect"/>
             </div>
             <div class="c_topRect" id="i_topRect_3"></div>
-            <div class="c_topRect" id="i_topRect_4"></div>
+            <div class="c_topRect" id="i_topRect_4">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/notebook.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
+            </div>
             <div class="c_topRect" id="i_topRect_5"></div>
             <div class="c_topRect" id="i_topRect_6"></div>
-            <div class="c_topRect" id="i_topRect_7"></div>
-            <div class="c_topRect" id="i_topRect_8"></div>
+            <div class="c_topRect" id="i_topRect_7">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/pencil.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
+            </div>
+            <div class="c_topRect" id="i_topRect_8">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/coockies.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
+            </div>
             <div class="c_topRect" id="i_topRect_9"></div>
             <div class="c_topRectNonHover" id="i_topRect_10"></div>
             <div class="c_topRectNonHover" id="i_topRect_11"></div>
