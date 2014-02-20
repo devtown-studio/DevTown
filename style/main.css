@@ -175,15 +175,39 @@
 /*конец лучшие услуги*/
 
 /*Ещё блок*/
-#i_moreBlock{
-    background-color: #dadbae;
+#i_allServices{
+    background-color: #DEDEE0;
     width: 100%;
     min-height: 500px;
     padding-top: 1px;
 }
-#i_moreBlockContent{
+#i_allServicesContent{
     width: 1000px;
     margin: 0 auto;
     margin-top: 100px;
+}
+#i_allServicesRectBlock{
+    width: 800px;
+    margin: 90px auto;
+}
+.c_allServicesRect{
+    height: 70px;
+    width: 70px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border: #FFF solid 3px;
+    margin-right: 110px;
+}
+.c_allServicesRect:hover{
+    border: #DB2CC5 solid 3px;
+    cursor: pointer;
+}
+.allServicesText{
+    margin-left: -75px;
+    margin-top: -15px;
+}
+.allServicesTextHeader{
+    font-size: 19px;
+    font-weight: bold;
 }
 /*конец ещё блок*/

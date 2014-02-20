@@ -37,27 +37,27 @@
     <div id="i_services">
         <div id="i_servicesContent">
             <div class="c_contentHeader c_fontSize30">
-                Что <span class="c_corpTextColor">мы</span> производим
+                Что <span class="c_corpTextColor">мы</span> делаем
             </div>
             <br><br>
             <div class="c_width800Min c_marginCenter c_contentTextMedium c_textCenter">
                 Здесь представлены наши <span class="c_corpTextColor">лучшие</span> работы в сфере разработки ПО.
                 <br><br>
-                Попробуйте посотреть все счетчки <span class="c_corpTextColor">работ</span> и кликнув на них увидеть <span class="c_corpTextColor">полное портфолио</span> работ в этой сфере.
+                Посмотрите все счетчки <span class="c_corpTextColor">работ</span> и кликнув на них вы увидете <span class="c_corpTextColor">полное портфолио</span> работ в этой сфере.
             </div>
             <div id="i_servicesRectBlock" class="c_corpTextColor">
                 <div class="c_servicesRect floatLeft" style="margin-left: 20px">
                     <div class="c_textRotateRectHor c_textCenter">
                         <span class="c_contentTextLarge">572</span>
                         <br>
-                        Web сайты
+                        Web сайтов
                     </div>
                 </div>
                 <div class="c_servicesRect floatLeft">
                     <div class="c_textRotateRectHor c_textCenter">
                         <span class="c_contentTextLarge">231</span>
                         <br>
-                        Мобильные
+                        Мобильных
                     </div>
                 </div>
                 <div class="c_servicesRect floatLeft">
@@ -78,16 +78,30 @@
         </div>
     </div>
 
-    <div id="i_moreBlock">
-        <div id="i_moreBlockContent">
+    <div id="i_allServices">
+        <div id="i_allServicesContent">
             <div class="c_contentHeader c_fontSize30">
-                Немного о <span class="c_corpTextColor">нас</span>
+                Все <span class="c_corpTextColor">наши</span> услуги
             </div>
             <br><br>
             <div class="c_width800Min c_marginCenter c_contentTextMedium c_textCenter">
-                Здесь представлены наши <span class="c_corpTextColor">лучшие</span> работы в сфере разработки ПО.
+                Ознакомтесь с полным <span class="c_corpTextColor">спектром</span> наших услуг.
                 <br><br>
-                Попробуйте посотреть все счетчки <span class="c_corpTextColor">работ</span> и кликнув на них увидеть <span class="c_corpTextColor">полное портфолио</span> работ в этой сфере.
+            </div>
+            <div id="i_allServicesRectBlock">
+                <div class="c_allServicesRect floatLeft"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">Web сайты</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                <div class="c_allServicesRect floatLeft" style="margin-left: 130px"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">Mobile App</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                
             </div>
         </div>
     </div>
