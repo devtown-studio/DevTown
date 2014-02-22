@@ -53,3 +53,32 @@ body{
 .c_contentTextLarge{
     font-size: 40px;
 }
+.c_textForm,.c_textArea{
+    border: none;
+    background-color: #E7E7E7;
+    padding: 10px;
+    outline:none;
+    font-size: 20px ;
+}
+.c_textForm{
+    height: 40px;
+    width: 380px;
+    margin-bottom: 45px;
+}
+.c_textArea{
+    height: 250px;
+    width: 400px;
+    font-family: Tahoma;
+    font-size: 15px;
+    resize: none;
+}
+.c_button{
+    border: none;
+    background-color: #DB2CC5;
+    min-width: 100px;
+    min-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 13px;
+    outline: none;
+}

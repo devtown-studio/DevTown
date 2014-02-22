@@ -89,20 +89,92 @@
                 <br><br>
             </div>
             <div id="i_allServicesRectBlock">
-                <div class="c_allServicesRect floatLeft"></div>
+
+                <div class="c_allServicesRect"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">Web сайты</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect floatLeft" style="margin-left: 130px"></div>
+                <div class="c_allServicesRect" style="margin-left: 150px"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">Mobile App</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                
+                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">SEO</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                <div class="clear"></div>
+
+                <br><br><br><br>
+                <div class="c_allServicesRect"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">Статьи</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">1С</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">Web приложения</div>
+                    <div class="allServicesTextContent"></div>
+                </div>
+
+                <div class="clear"></div>
             </div>
+        </div>
+    </div>
+
+    <div id="i_cookies">
+
+    </div>
+
+    <div id="i_specOffers">
+
+    </div>
+
+    <div id="i_contactUs">
+        <div id="i_contactUsContent">
+            <div class="c_contentHeader c_fontSize30">
+                На<span class="c_corpTextColor">пишите н</span>ам
+            </div>
+            <br><br>
+            <div class="c_width800Min c_marginCenter c_contentTextMedium c_textCenter">
+                Свяжитесь с нами если <span class="c_corpTextColor">вас</span> заинтересовали наши услуги или просто есть вопросы.
+                <span class="c_corpTextColor">Мы обязательно ответим.</span>
+                <br><br>
+                <form id="i_contactUsContentBlock">
+                    <div class="floatLeft">
+                        <input type="text" class="c_textForm" value="Имя"><br>
+                        <input type="text" class="c_textForm" value="E-mail"><br>
+                        <input type="text" class="c_textForm" value="Тема">
+                    </div>
+
+
+                    <textarea class="c_textArea floatRight">Введите Ваш текст</textarea>
+
+                    <div class="clear"></div>
+
+                    <div style="width: 100%;text-align: center">
+                        <input type="button" class="c_button c_marginCenter" id="i_buttonContactUs" value="Отправить">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="i_bottom">
+        <div id="i_bottomContent">
+            © Development Town co., 2014. Все права сохранены.
         </div>
     </div>
 </div>

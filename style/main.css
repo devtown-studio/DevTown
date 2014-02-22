@@ -4,7 +4,7 @@
 #i_main{
     width: 100%;
     height: 95%;
-
+    min-height: 630px;
     background: url(../img/bg.jpg) no-repeat center center fixed;
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -148,16 +148,16 @@
 #i_services{
     background-color: #ffffff;
     width: 100%;
-    min-height: 500px;
+    min-height: 450px;
 }
 #i_servicesContent{
     width: 1000px;
     margin: 0 auto;
-    margin-top: 110px;
+    margin-top: 100px;
 }
 #i_servicesRectBlock{
     width: 1060px;
-    margin: 90px auto;
+    margin: 110px auto;
 }
 .c_servicesRect{
     height: 130px;
@@ -174,21 +174,21 @@
 }
 /*конец лучшие услуги*/
 
-/*Ещё блок*/
+/*Все услуги*/
 #i_allServices{
     background-color: #DEDEE0;
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
     padding-top: 1px;
 }
 #i_allServicesContent{
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
     margin-top: 100px;
 }
 #i_allServicesRectBlock{
-    width: 800px;
-    margin: 90px auto;
+    width: 870px;
+    margin: 70px auto;
 }
 .c_allServicesRect{
     height: 70px;
@@ -196,7 +196,8 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     border: #FFF solid 3px;
-    margin-right: 110px;
+    margin-right: 100px;
+    float: left;
 }
 .c_allServicesRect:hover{
     border: #DB2CC5 solid 3px;
@@ -205,9 +206,65 @@
 .allServicesText{
     margin-left: -75px;
     margin-top: -15px;
+    float:left;
+    width: 85px;
 }
 .allServicesTextHeader{
     font-size: 19px;
     font-weight: bold;
+    width: 170px;
 }
-/*конец ещё блок*/
+/*конец Все услуги*/
+
+/*Все услуги*/
+#i_cookies{
+    width: 100%;
+    background: url(../img/coockiesBigBack.jpg) no-repeat  #000000;
+    background-size: cover;
+    margin-top: -70px;
+    min-height: 800px;
+}
+/*конец Все услуги*/
+
+/*Все услуги*/
+#i_specOffers{
+    background-color: #DEDEE0;
+    width: 100%;
+    min-height: 600px;
+}
+/*конец Все услуги*/
+
+/*Свяжитесь с нами*/
+#i_contactUs{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 670px;
+}
+#i_contactUsContent{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#i_contactUsContentBlock{
+    width: 850px;
+    margin: 70px auto;
+    text-align: left;
+}
+#i_buttonContactUs{
+    min-width: 130px;
+    margin-left: -10px;
+}
+/*конец Свяжитесь с нами*/
+
+/*Подвал*/
+#i_bottom{
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100px;
+}
+#i_bottomContent{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*конец Подвал*/
