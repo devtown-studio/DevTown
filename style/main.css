@@ -144,6 +144,16 @@
 }
 /*Конец прямоугульникам*/
 
+/*Главное меню*/
+#i_mainMenu{
+    height: 5px;
+    margin-top: -5px;
+    /*width: 280px;*/
+    width: 10px;
+    margin-left: 125px;
+}
+/*Конец Главное меню*/
+
 /*Лучшие услуги*/
 #i_services{
     background-color: #ffffff;

@@ -1,71 +1,116 @@
-$("#button_closeInfo").bind("click ",openCloseInfo);
-/*$(".list_navTop li").bind("mouseleave ",notdoit);*/
-/*$(".circle").bind("mouseover ",{changeSize: 70},changeCircle);*/
-$(".circleAlpha").bind("click", changeCircleMax);
-/*$(".circleAlpha").bind("mouseleave",changeCircleMin);*/
+//distanceTop = $("#i_buttonMenuRect").offset().top - $(window).height();
+distanceMenuButton = $("#i_buttonMenuRect").offset().top;
+distanceMainMenu = $("#i_mainMenu").offset().top;
+mainMenuToUp = true;
+mainMenuOpen = false;
 
-/*function handler(event) {
-    alert(event.data.foo);
-}*/
+$(window).on("scroll",function(){checkFixedElems()});
+$("#i_buttonMenuRect").bind("click",function(){openMainMenu()});
 
-function changeCircleMax(){
-    var thisCircle = $(this);
-    /*thisCircle.stop(true);
 
-    thisCircle.animate({
-        "height": "80px",
-        "width": "80px",
-        "border-radius": "80px",
-        "margin-top":"-10px",
-        "margin-left":"-10px"
-    },140);*/
-
-    var c_info =  $("#c_info");
-    c_info.stop(true);
-    var id = thisCircle[0].id;
-    if(id == "circleGreen")
-        c_info.animate({"background-color":"green"});
-    else if(id == "circleRed")
-        c_info.animate({"background-color":"red"});
-    else if(id == "circleYellow")
-        c_info.animate({"background-color":"yellow"});
-    else if(id == "circleWhite")
-        c_info.animate({"background-color":"white"});
+function getOffsetElem(el){
+    if(el == null || el == undefined)
+        return null;
+    return el.offset();
 }
 
-function changeCircleMin(){
-    /*var thisCircle = $(this);
-    thisCircle.stop(true);
-    thisCircle.animate({
-        "height": "60px",
-        "width": "60px",
-        "border-radius": "60px",
-        "margin-top":"0",
-        "margin-left":"0"
-    },140);*/
+function checkFixedElems(){
+
+    var menuButton = $("#i_buttonMenuRect");
+    var mainMenu = $("#i_mainMenu");
+    var scrollTop = $(window).scrollTop();
+
+    if(!mainMenuOpen){
+        if(scrollTop>=distanceMenuButton){
+            var pos = "fixed";
+            var top = "35px";
+            mainMenuToUp = false;
+        }else{
+            var pos = "relative";
+            var top = "0";
+            mainMenuToUp = true;
+        }
+
+        menuButton.css("position",pos);
+        menuButton.css("top",top);
+    }
+
+    if(mainMenuToUp){
+        var pos = "relative";
+        var top = "0";
+    }else{
+        var pos = "fixed";
+        var top = "40px";
+    }
+    mainMenu.css("position",pos);
+    mainMenu.css("top",top);
 }
-function openCloseInfo(){
-    var c_info = $("#c_info");
-    if(c_info.is(":hidden"))
-        c_info.slideDown(200);
-    else
-        c_info.slideUp(200);
+
+function openMainMenu(){
+    var menuButton = $("#i_buttonMenuRect");
+    var mainMenu = $("#i_mainMenu");
+    var scrollTop = $(window).scrollTop();
+
+    mainMenu.stop(true);
+
+    if(mainMenuOpen){
+        var marginTop = "-5px";
+        var height = "5px";
+        var width = "10px";
+        var marginLeft = "125px";
+    }else{
+        if(mainMenuToUp)
+            var marginTop = "-1050px";
+        else
+            var marginTop = "-5px";
+
+        var height = "1050px";
+        var width = "280px";
+        var marginLeft = "0";
+    }
+
+    if(!mainMenuOpen){
+        mainMenu.animate({
+            "width":width,
+            "margin-left":marginLeft
+        },300);
+    }
+    mainMenu.animate({
+        "margin-top":marginTop,
+        "height":height
+    },300);
+
+    if(mainMenuOpen){
+        mainMenu.animate({
+            "width":width,
+            "margin-left":marginLeft
+        },300);
+    }
+
+    if(!mainMenuOpen && mainMenuToUp){
+        $.scrollTo('0', 300);
+    }
+
+
+   /* if(scrollTop>=distanceMenuButton){
+        var pos = "fixed";
+        var top = "35px";
+        mainMenuToUp1 = false;
+    }else{
+        var pos = "relative";
+        var top = "0";
+        mainMenuToUp1 = true;
+    }
+
+    if(mainMenuOpen && mainMenuToUp1){
+//        menuButton.animate({
+//            "position":pos,
+//            "top":top
+//        },200);
+        menuButton.css("position",pos);
+        menuButton.css("top",top);
+    }*/
+
+    mainMenuOpen = !mainMenuOpen;
 }
 
-
-
-
-
-
-
-
-
-function doit(){
-//    alert($(this).html());
-    $(this).animate({"box-shadow":"inset 0 0 20px #11385f","background-color":"#1e68ac"}, 300);
-}
-
-function notdoit(){
-//    alert($(this).html());
-    $(this).css({"box-shadow":"","background-color":""}, 100);
-}

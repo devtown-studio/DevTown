@@ -1,5 +1,5 @@
 <div id="i_content">
-    <div id="i_main">
+    <div id="i_main" class="c_nonSelection">
         <div id="i_topRects">
             <div class="c_topRect" id="i_topRect_1">
                 <div style="-webkit-transform:rotate(-45deg);margin-top: 44px;margin-left: 5px;text-align: center">
@@ -30,7 +30,11 @@
             <div class="c_topRectNonHover" id="i_topRect_13"></div>
         </div>
     </div>
-    <div id="i_buttonMenuRect" class="c_corpBackgroungColor">
+
+    <div id="i_mainMenu" class="c_corpBackgroungColor">
+
+    </div>
+    <div id="i_buttonMenuRect" class="c_corpBackgroungColor c_nonSelection">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/menu.png" id="i_buttonMenuImg" />
     </div>
 
@@ -89,14 +93,13 @@
                 <br><br>
             </div>
             <div id="i_allServicesRectBlock">
-
-                <div class="c_allServicesRect"></div>
+                <div class="c_allServicesRect floatLeft"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">Web сайты</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="c_allServicesRect floatLeft" style="margin-left: 130px"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">Mobile App</div>
                     <div class="allServicesTextContent"></div>
@@ -130,9 +133,11 @@
                 </div>
 
                 <div class="clear"></div>
+
             </div>
         </div>
     </div>
+
 
     <div id="i_cookies">
         <div id="i_cookiesContent">
@@ -185,6 +190,7 @@
             © Development Town co., 2014. Все права сохранены.
         </div>
     </div>
+
 </div>
 
 <?php //$this->widget('WServicesSlider'); ?>
