@@ -135,11 +135,19 @@
     </div>
 
     <div id="i_cookies">
-
+        <div id="i_cookiesContent">
+            <div class="c_contentHeader c_fontSize30">
+                Наши <span class="c_corpTextColor">приемущества</span>
+            </div>
+        </div>
     </div>
 
     <div id="i_specOffers">
-
+        <div id="i_specOffersContent">
+            <div class="c_contentHeader c_fontSize30">
+                Специальные <span class="c_corpTextColor">предложения</span>
+            </div>
+        </div>
     </div>
 
     <div id="i_contactUs">
