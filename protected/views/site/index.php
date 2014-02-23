@@ -1,5 +1,5 @@
 <div id="i_content">
-    <div id="i_main">
+    <div id="i_main" class="c_nonSelection">
         <div id="i_topRects">
             <div class="c_topRect" id="i_topRect_1">
                 <div style="-webkit-transform:rotate(-45deg);margin-top: 44px;margin-left: 5px;text-align: center">
@@ -34,7 +34,7 @@
     <div id="i_mainMenu" class="c_corpBackgroungColor">
 
     </div>
-    <div id="i_buttonMenuRect" class="c_corpBackgroungColor">
+    <div id="i_buttonMenuRect" class="c_corpBackgroungColor c_nonSelection">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/menu.png" id="i_buttonMenuImg" />
     </div>
 

@@ -16,6 +16,7 @@
     <?php echo $content; ?>
 
 <!--    <script src="--><?php //echo Yii::app()->request->baseUrl; ?><!--/js/jquerycolor.js"></script>-->
+    <script src="<?php echo Yii::app()->request->baseUrl;?>/js/jqueryScrollTo.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl;?>/js/main.js"></script>
 
 

@@ -1,9 +1,10 @@
 //distanceTop = $("#i_buttonMenuRect").offset().top - $(window).height();
 distanceMenuButton = $("#i_buttonMenuRect").offset().top;
+distanceMainMenu = $("#i_mainMenu").offset().top;
 mainMenuToUp = true;
 mainMenuOpen = false;
 
-$(window).on("scroll",function(){checkMenuButton()});
+$(window).on("scroll",function(){checkFixedElems()});
 $("#i_buttonMenuRect").bind("click",function(){openMainMenu()});
 
 
@@ -13,22 +14,43 @@ function getOffsetElem(el){
     return el.offset();
 }
 
-function checkMenuButton(){
-    if($(window).scrollTop()>=distanceMenuButton){
-        var pos = "fixed";
-        var top = "35px";
-        mainMenuToUp = false;
-    }else{
+function checkFixedElems(){
+
+    var menuButton = $("#i_buttonMenuRect");
+    var mainMenu = $("#i_mainMenu");
+    var scrollTop = $(window).scrollTop();
+
+    if(!mainMenuOpen){
+        if(scrollTop>=distanceMenuButton){
+            var pos = "fixed";
+            var top = "35px";
+            mainMenuToUp = false;
+        }else{
+            var pos = "relative";
+            var top = "0";
+            mainMenuToUp = true;
+        }
+
+        menuButton.css("position",pos);
+        menuButton.css("top",top);
+    }
+
+    if(mainMenuToUp){
         var pos = "relative";
         var top = "0";
-        mainMenuToUp = true;
+    }else{
+        var pos = "fixed";
+        var top = "40px";
     }
-    $("#i_buttonMenuRect").css("position",pos);
-    $("#i_buttonMenuRect").css("top",top);
+    mainMenu.css("position",pos);
+    mainMenu.css("top",top);
 }
 
 function openMainMenu(){
+    var menuButton = $("#i_buttonMenuRect");
     var mainMenu = $("#i_mainMenu");
+    var scrollTop = $(window).scrollTop();
+
     mainMenu.stop(true);
 
     if(mainMenuOpen){
@@ -37,7 +59,11 @@ function openMainMenu(){
         var width = "10px";
         var marginLeft = "125px";
     }else{
-        var marginTop = "-1050px";
+        if(mainMenuToUp)
+            var marginTop = "-1050px";
+        else
+            var marginTop = "-5px";
+
         var height = "1050px";
         var width = "280px";
         var marginLeft = "0";
@@ -60,6 +86,31 @@ function openMainMenu(){
             "margin-left":marginLeft
         },300);
     }
+
+    if(!mainMenuOpen && mainMenuToUp){
+        $.scrollTo('0', 300);
+    }
+
+
+   /* if(scrollTop>=distanceMenuButton){
+        var pos = "fixed";
+        var top = "35px";
+        mainMenuToUp1 = false;
+    }else{
+        var pos = "relative";
+        var top = "0";
+        mainMenuToUp1 = true;
+    }
+
+    if(mainMenuOpen && mainMenuToUp1){
+//        menuButton.animate({
+//            "position":pos,
+//            "top":top
+//        },200);
+        menuButton.css("position",pos);
+        menuButton.css("top",top);
+    }*/
+
     mainMenuOpen = !mainMenuOpen;
 }
 
