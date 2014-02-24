@@ -6,7 +6,9 @@ mainMenuOpen = false;
 
 $(window).on("scroll",function(){checkFixedElems()});
 $("#i_buttonMenuRect").bind("click",function(){openMainMenu()});
-
+$("#i_topRect_8").bind("click",function(){
+    scrollTo($("#i_cookies"));
+});
 
 function getOffsetElem(el){
     if(el == null || el == undefined)
@@ -114,3 +116,6 @@ function openMainMenu(){
     mainMenuOpen = !mainMenuOpen;
 }
 
+function scrollTo(el){
+    $.scrollTo(el, 300);
+}
