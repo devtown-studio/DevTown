@@ -1,4 +1,9 @@
 <div id="i_content">
+
+    <div id="i_buttonSlideUp">
+        <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/slide_up.png" width="80px"/>
+    </div>
+
     <div id="i_main" class="c_nonSelection">
         <div id="i_topRects">
             <div class="c_topRect" id="i_topRect_1">
@@ -24,9 +29,9 @@
             </div>
             <div class="c_topRect" id="i_topRect_6">
                 <div style="-webkit-transform:rotate(-45deg);margin-top: 35px;margin-left: 5px;text-align: center">
-                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/calc.png" style="width: 50px;"/>
+                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/solutions.png" style="width: 50px;"/>
                     <br>
-                    Посчитайте себе
+                    Решения
                 </div>
             </div>
             <div class="c_topRect" id="i_topRect_7">
@@ -67,12 +72,12 @@
         </div>
     </div>
 
-    <div id="i_mainMenu" class="c_corpBackgroungColor">
-
-    </div>
+    <div id="i_mainMenu" class="c_corpBackgroungColor"></div>
     <div id="i_buttonMenuRect" class="c_corpBackgroungColor c_nonSelection">
         <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/menu.png" id="i_buttonMenuImg" />
     </div>
+
+
 
     <div id="i_services">
         <div id="i_servicesContent">
@@ -129,20 +134,26 @@
                 <br><br>
             </div>
             <div id="i_allServicesRectBlock">
-                <div class="c_allServicesRect floatLeft"></div>
+                <div class="c_allServicesRect floatLeft">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/site2.png" style="-webkit-transform:rotate(-45deg);margin-top: 15px;margin-left: 15px;width: 40px"/>
+                </div>
                 <div class="allServicesText">
-                    <div class="allServicesTextHeader">Web сайты</div>
+                    <div class="allServicesTextHeader">Сайты</div>
+                    <div class="allServicesTextContent">Сайт - это Ваше лицо, и оно должно быть идеальным.</div>
+                </div>
+
+                <div class="c_allServicesRect floatLeft" style="margin-left: 70px">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/mobile-dev.png" style="-webkit-transform:rotate(-45deg);margin-top: 15px;margin-left: 15px;width: 40px"/>
+                </div>
+                <div class="allServicesText">
+                    <div class="allServicesTextHeader">Мобильные приложения</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect floatLeft" style="margin-left: 130px"></div>
-                <div class="allServicesText">
-                    <div class="allServicesTextHeader">Mobile App</div>
-                    <div class="allServicesTextContent"></div>
+
+                <div class="c_allServicesRect" style="margin-left: 70px">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/seo.png" style="-webkit-transform:rotate(-45deg);margin-top: 15px;margin-left: 15px;width: 40px"/>
                 </div>
-
-
-                <div class="c_allServicesRect" style="margin-left: 150px"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">SEO</div>
                     <div class="allServicesTextContent"></div>
@@ -151,19 +162,25 @@
                 <div class="clear"></div>
 
                 <br><br><br><br>
-                <div class="c_allServicesRect"></div>
+                <div class="c_allServicesRect">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/compsol.png" style="-webkit-transform:rotate(-45deg);margin-top: 15px;margin-left: 15px;width: 40px"/>
+                </div>
                 <div class="allServicesText">
-                    <div class="allServicesTextHeader">Статьи</div>
+                    <div class="allServicesTextHeader">Комплексные решения</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect" style="margin-left: 130px"></div>
+                <div class="c_allServicesRect" style="margin-left: 130px">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/1cdev.png" style="-webkit-transform:rotate(-45deg);margin-top: 10px;margin-left: 10px;width: 50px"/>
+                </div>
                 <div class="allServicesText">
-                    <div class="allServicesTextHeader">1С</div>
+                    <div class="allServicesTextHeader">1С разработки</div>
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="c_allServicesRect" style="margin-left: 150px">
+                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/webdev.png" style="-webkit-transform:rotate(-45deg);margin-top: 15px;margin-left: 15px;width: 40px"/>
+                </div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">Web приложения</div>
                     <div class="allServicesTextContent"></div>

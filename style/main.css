@@ -1,3 +1,14 @@
+#i_buttonSlideUp{
+    position: fixed;
+    left: 92%;
+    top: 88%;
+    z-index: 100;
+    display: none;
+}
+#i_buttonSlideUp:hover{
+    cursor: pointer;
+}
+
 #i_content{
     height: 100%;
 }
@@ -241,7 +252,7 @@
     margin-top: 100px;
 }
 #i_allServicesRectBlock{
-    width: 870px;
+    width: 970px;
     margin: 70px auto;
 }
 .c_allServicesRect{
@@ -261,7 +272,7 @@
     margin-left: -75px;
     margin-top: -15px;
     float:left;
-    width: 85px;
+    width: 170px;
 }
 .allServicesTextHeader{
     font-size: 19px;

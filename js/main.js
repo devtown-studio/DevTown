@@ -12,6 +12,10 @@ $("#i_topRect_8").bind("click",function(){
 $("#i_topRect_9").bind("click",function(){
     scrollTo($("#i_contactUs"));
 });
+$("#i_buttonSlideUp").bind("click",function(){
+    scrollTo($("body"));
+});
+
 
 function getOffsetElem(el){
     if(el == null || el == undefined)
@@ -23,6 +27,7 @@ function checkFixedElems(){
 
     var menuButton = $("#i_buttonMenuRect");
     var mainMenu = $("#i_mainMenu");
+    var i_slideUp = $("#i_buttonSlideUp");
     var scrollTop = $(window).scrollTop();
 
     if(!mainMenuOpen){
@@ -38,6 +43,12 @@ function checkFixedElems(){
 
         menuButton.css("position",pos);
         menuButton.css("top",top);
+    }
+
+    if(scrollTop>=distanceMenuButton){
+        i_slideUp.fadeIn();
+    }else{
+        i_slideUp.fadeOut();
     }
 
     if(mainMenuToUp){
