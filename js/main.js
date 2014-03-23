@@ -9,6 +9,9 @@ $("#i_buttonMenuRect").bind("click",function(){openMainMenu()});
 $("#i_topRect_8").bind("click",function(){
     scrollTo($("#i_cookies"));
 });
+$("#i_topRect_9").bind("click",function(){
+    scrollTo($("#i_contactUs"));
+});
 
 function getOffsetElem(el){
     if(el == null || el == undefined)

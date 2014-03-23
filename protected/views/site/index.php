@@ -15,19 +15,55 @@
             <div class="c_topRect" id="i_topRect_4">
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/notebook.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
             </div>
-            <div class="c_topRect" id="i_topRect_5"></div>
-            <div class="c_topRect" id="i_topRect_6"></div>
+            <div class="c_topRect" id="i_topRect_5">
+                <div style="-webkit-transform:rotate(-45deg);margin-top: 35px;margin-left: 5px;text-align: center">
+                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/calc.png" style="width: 50px;"/>
+                    <br>
+                    Посчитайте себе
+                </div>
+            </div>
+            <div class="c_topRect" id="i_topRect_6">
+                <div style="-webkit-transform:rotate(-45deg);margin-top: 35px;margin-left: 5px;text-align: center">
+                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/calc.png" style="width: 50px;"/>
+                    <br>
+                    Посчитайте себе
+                </div>
+            </div>
             <div class="c_topRect" id="i_topRect_7">
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/pencil.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
             </div>
             <div class="c_topRect" id="i_topRect_8">
                 <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/coockies.jpg" style="-webkit-transform:rotate(-45deg);margin-top: -60px;margin-left: -140px;width: 400px"/>
             </div>
-            <div class="c_topRect" id="i_topRect_9"></div>
+            <div class="c_topRect" id="i_topRect_9">
+                <div style="-webkit-transform:rotate(-45deg);margin-top: 35px;margin-left: 5px;text-align: center">
+                    <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/post.png" style="width: 50px;"/>
+                    <br>
+                    Напишите нам
+                </div>
+            </div>
             <div class="c_topRectNonHover" id="i_topRect_10"></div>
             <div class="c_topRectNonHover" id="i_topRect_11"></div>
             <div class="c_topRectNonHover" id="i_topRect_12"></div>
             <div class="c_topRectNonHover" id="i_topRect_13"></div>
+            <div class="c_topRectNonHover" id="i_topRect_14"></div>
+
+            <div class="c_topRect" id="i_topRect_m_1">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/skype.png" style="-webkit-transform:rotate(-45deg);margin-top: 9px;margin-left: 7px;width: 32px"/>
+            </div>
+            <div class="c_topRect" id="i_topRect_m_2"></div>
+            <div class="c_topRect" id="i_topRect_m_3">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/facebook.png" style="-webkit-transform:rotate(-45deg);margin-top: 9px;margin-left: 7px;width: 32px"/>
+            </div>
+            <div class="c_topRect" id="i_topRect_m_4">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/twitter.png" style="-webkit-transform:rotate(-45deg);margin-top: 9px;margin-left: 7px;width: 32px"/>
+            </div>
+            <div class="c_topRect" id="i_topRect_m_5">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/vk.png" style="-webkit-transform:rotate(-45deg);margin-top: 9px;margin-left: 7px;width: 35px"/>
+            </div>
+            <div class="c_topRect" id="i_topRect_m_6">
+                <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icon/gplus.png" style="-webkit-transform:rotate(-45deg);margin-top: 4px;margin-left: 7px;width: 40px"/>
+            </div>
         </div>
     </div>
 
@@ -121,7 +157,7 @@
                     <div class="allServicesTextContent"></div>
                 </div>
 
-                <div class="c_allServicesRect" style="margin-left: 150px"></div>
+                <div class="c_allServicesRect" style="margin-left: 130px"></div>
                 <div class="allServicesText">
                     <div class="allServicesTextHeader">1С</div>
                     <div class="allServicesTextContent"></div>
